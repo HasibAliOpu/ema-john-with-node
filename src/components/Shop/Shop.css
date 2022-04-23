@@ -12,6 +12,11 @@
   margin: 0 auto;
   padding-bottom: 20px;
 }
+.pagination select {
+  font-size: 19px;
+  border: 1px solid orange;
+  border-radius: 3px;
+}
 .pagination .selected {
   background-color: orange;
   color: white;
