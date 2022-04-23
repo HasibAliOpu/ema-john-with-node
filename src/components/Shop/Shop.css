@@ -8,18 +8,21 @@
   gap: 45px;
   margin: 100px 50px;
 }
-.pagination-btn {
+.pagination {
   margin: 0 auto;
   padding-bottom: 20px;
 }
-.pagination-btn button {
+.pagination .selected {
+  background-color: orange;
+  color: white;
+}
+.pagination button {
   margin-right: 10px;
   border: 1px solid orange;
   border-radius: 3px;
   background-color: #fff;
   font-size: 18px;
-  font-weight: 600;
-  padding: 12px;
+  padding: 2px 9px;
 }
 .cart-container {
   background-color: rgba(255, 153, 0, 0.3);
